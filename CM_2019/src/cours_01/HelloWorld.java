@@ -1,0 +1,18 @@
+package cours_01;
+
+import javax.swing.JOptionPane;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello"+" "+"World!");
+		JOptionPane.showMessageDialog(null, "message type 0","title", 0);
+		JOptionPane.showMessageDialog(null, "message type 1","title", 1);
+		JOptionPane.showMessageDialog(null, "message type 2","title", 2);
+		JOptionPane.showMessageDialog(null, "message type 3","title", 3);
+		JOptionPane.showMessageDialog(null, "message type 0","title", 0);
+		JOptionPane.showMessageDialog(null, "message type 1","title", 1);
+		JOptionPane.showMessageDialog(null, "message type 2","title", 2);
+		String nom = JOptionPane.showInputDialog("Donnez moi votre nom : ");
+		System.out.println("Votre nom est donc" + " " + nom);
+	}
+}
