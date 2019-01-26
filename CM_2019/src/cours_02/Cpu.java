@@ -38,7 +38,7 @@ public class Cpu {
 
 	@Override
 	public String toString() {
-		return "Cpu [manufacturer=" + manufacturer + ", description=" + description + "]";
+		return  manufacturer  + description;
 	}
 
 
